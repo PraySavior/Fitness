@@ -1,0 +1,94 @@
+.navbar{
+    position: static;
+}
+.exercises-sections{
+    padding: 80px 0;
+}
+.exercises-middle-1{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+.exercises-area{
+    display: flex;
+    justify-content: center;
+}
+.exercises-exercises{
+    padding: 2%;
+    background-color:#052D37;
+    width: 85%;
+    height: 100vh;
+}
+.exercises-div{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: cadetblue;
+    border-radius: 1rem;
+}
+.exercises-exercises h2{
+    margin-bottom: 1.5rem;
+    color: white;
+}
+.exercises-list{
+    width: 85%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.exercises-choose{
+    padding: 15px 0;
+    width: 100px;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.5rem
+};
+.exercises-choose:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+.exercises-div ul button:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+.oktay{
+    display: none;
+}
+.cen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.cen input{
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+.cen button{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+}
+.see{
+    width: 40px;
+    color: white;
+}
+.expand{
+    background-color: transparent;
+    border: none;
+    width: 20px;
+    height: 20px;
+}
+.expand-2{
+    background-color: cadetblue;
+    color: white;
+}
+.bruh{
+    height: max-content;
+}

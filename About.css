@@ -1,0 +1,60 @@
+.seption{
+    background-color: #E35F21;
+    padding: 4.5vw;
+    color: #E35F21;
+}
+.about-central{
+    display: flex;
+    justify-content: center;
+    background-color: #052D37;
+    padding: 4.5vw;
+    border: 1px solid white;
+    height: max-content;
+}
+h2{
+    text-align: center;
+    font-size: 2vw;
+    padding: 2vw;
+    color: white !important;
+}
+.topper{
+    width: 60%;
+}
+.highlight{
+    padding: 1.5vw;
+    padding-left: 0.8vw;
+    font-size: 2vw;
+    display: inline-block;
+    color: #052D37;
+}
+.info{
+    padding: 0.8vw 1.2vw 2vw;
+    font-size: 0.8vw;
+}
+.nice img{
+    width: 100%;
+    height: 3vw;
+}
+.nice{
+    width: 100%;
+    background-image: url(./photo-1552674605-db6ffd4facb5.avif);
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.niceall{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.poxes{
+    margin: 1vw;
+    background-color: white;
+    height: max-content;
+}
+.poxes:hover{
+    box-shadow : 0 0 10px 5px #E35F21
+}

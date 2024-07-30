@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    width: 100%;
+    min-height: 66px;
+    background-color: #052D37;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    z-index: 999;
+}
+.center-1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-1{
+    width: 12vw;
+    padding: 10px;
+}
+.right-1{
+    width: 80%;
+    padding: 25px;
+}
+.left-1 img{
+    width: 100%;
+    height: 100%;
+}
+.search{
+    background-color: white;
+}
+.search input{
+    border: none;
+    outline: none;
+}
+.top-1{
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 0.5vw;
+}
+.top-1 li a{
+    font-size: 1.3vw;
+    color: #E5C58F;
+
+}
+.parent:hover{
+    color: #FF8103;
+}
+.parent{
+    position: relative;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.parent a{
+    color: white;
+}
+.parent:hover a{
+    color: #FF8103;
+}
+.dropdown{
+    transition: 0;
+    color: white;
+    background-color: black;
+    visibility: hidden;
+    opacity: none;
+    position: absolute;
+    margin-top: 10px;
+    width: 200px;
+}
+.dropdown-1 li{
+    padding: 10px;
+    font-weight: 300;
+}
+.dropdown-1 li:hover{
+    color: #FF8103;
+}
+.parent-1:hover .dropdown-1{
+    visibility: visible;
+    opacity: 1;
+}
+.dropdown-2 li{
+    padding: 10px;
+    font-weight: 300;
+}
+.dropdown-2 li:hover{
+    color: #FF8103;
+}
+.parent-2:hover .dropdown-2{
+    visibility: visible;
+    opacity: 1;
+}
+.arrow-1{
+    position: relative;
+    top: 1px;
+    font-weight: 300;
+}
+.sections{
+    padding-top:  0;
+    padding-bottom:  80px;
+    background-color: #E35F21;
+    height: max-content;
+}
+.section-1{
+    height: 600px;
+}
+.section-2{
+    padding: 80px 0;
+}
+.photo{
+    background-image: url(./photo-1637666218229-1fe0a9419267.avif);
+    width: 100%;
+    height: 100% !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bruh{
+    background-color: #E35F21;
+}
+.yup{
+    /* background-color: lawngreen; */
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.xob{
+    /* background-color: red; */
+    padding: 0 15px;
+    height: max-content;
+    margin: 0 20px;
+}
+.opp{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.xob-1 p{
+    color: #777777;
+    line-height: 24px;
+    font-size: 0.8vw;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.xob-1 p:hover{
+    color: #E35F21;
+}
+.xob-2{
+    width: 360px;
+}
+.santa{
+    margin-bottom: 1rem;
+    line-height: 24px;
+    font-size: 0.8vw;
+    color: #777777;
+}
+.xob-2 h3{
+    font-size: 1.5vw;
+
+    font-weight: 500;
+    color: #ffffff;
+}
+.last{
+    background-color: #222222;
+    line-height: 1.5vw;
+    width: 45%;
+    border: none;
+    border-style:none ;
+    background: #2d2d2d;
+    font-weight: 300;
+    border-radius: 20px;
+    color: #fff;
+    padding-left: 20px;
+    outline: none;
+}
+.buttno{
+    background-color: #E35F21;
+    border: 1px solid #222222;
+    border-radius: 25px;
+    color: white;
+    width: 40%;
+    height: max-content;
+    transition: 1s;
+    text-align: center;
+    padding: 0px 40px;
+    font-size: 0.7vw;
+    font-weight: 500;
+    line-height: 3vw;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 15px;
+}
+.buttno:hover{
+    background-color: #222222;
+    color: #E35F21;
+    border: 1px solid #E35F21;
+}
+.div{
+    padding-top: 80px ;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.us{
+    /* background-color: white; */
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #777777;
+    margin-top: 1vw;
+    text-align: center;
+}
+.us i{
+    color: #E35F21;
+}
+.us span{
+    color: #E35F21;
+}
+.right-5 i{
+    color: #cccccc;
+    padding: 5px;
+    background-color: #111111;
+    transition: 0.5s;
+    margin: 0 3px;
+}
+.right-5 i{
+    padding: 0.5vw;
+    margin: 0.5vw;
+    border-radius: 8px;
+    scale: 1.2;
+}
+.right-5 i:hover{
+    background-color: white;
+    color: #E35F21;
+}
+.ending{
+    padding: 120px 0;
+    height: max-content;
+    background-color: #222222;
+}
